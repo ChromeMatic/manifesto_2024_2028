@@ -146,6 +146,14 @@
       </a>
     </div>
 
+    <div class="flex w-full py-1.5 px-4 justify-center items-center bg-white border-t-2 border-teal-100">
+      <h1
+        class="uppercase font-semibold text-teal-500 text-sm"
+      >
+        created by armani brown 2024.
+      </h1>
+    </div>
+
   </section>
 </template>
 
