@@ -106,13 +106,23 @@
 
     <div 
      v-motion="document_animate"
-     class="flex justify-center items-center w-full p-4"
+     class="hidden md:flex justify-center items-center w-full p-4"
     >
       <object 
         data="/manifesto7 final.pdf" 
         class="rounded-md border-2 border-dashed border-green-500
         lg:h-[32rem] h-[26rem] w-[34rem] lg:w-[80rem]"
       ></object>
+    </div>
+
+    <div
+     v-motion="document_animate"
+     class="flex md:hidden justify-center items-center w-full p-4"
+    >
+      <img 
+       src="/file.png" 
+       class="h-[20rem]"
+      /> 
     </div>
 
     <div
